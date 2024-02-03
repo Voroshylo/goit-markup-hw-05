@@ -461,8 +461,46 @@ margin-bottom: 16px;
 }
 
 /*modal-wondow*/
-
-
+.backdrop {
+}
+.is-open {
+}
+.modal {
+}
+.close-button {
+}
+.icon-close {
+}
+.modal-title {
+}
+.div-label {
+}
+.label {
+}
+.div-input {
+}
+.input {
+}
+.icon-label {
+}
+.label-textarea {
+}
+.div-checkbox {
+}
+.checkbox {
+}
+.visually-hiden {
+}
+.label-checkbox {
+}
+.span-checkbox {
+}
+.icon-checkbox {
+}
+.privacy-policy {
+}
+.modal-button {
+}
 ul {
   list-style: none;
 }
