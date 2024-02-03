@@ -480,7 +480,7 @@ margin-bottom: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)scale(1);
   border-radius: 4px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -490,6 +490,7 @@ margin-bottom: 16px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .close-button {
@@ -519,6 +520,34 @@ margin-bottom: 16px;
 .icon-close:hover,
 .icon-close:focus {
   fill: #ffffff;
+}
+.modal-title {
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 0.02em;
+letter-spacing: 0.32px;
+text-align: center;
+color:#2e2f42;
+margin-bottom: 16px;
+}
+.div-label {
+  margin-bottom: 8px;
+}
+.label {
+  font-size: 12px;
+  font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+line-height: 1.17;
+letter-spacing: 0.48px;
+color:#8e8f99;
+display: block;
+margin-bottom: 4px;
+}
+.icon-label {
+  color: #2e2f42;
 }
 ul {
   list-style: none;
