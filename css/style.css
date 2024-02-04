@@ -459,6 +459,65 @@ margin-bottom: 16px;
 .footer-link:hover, .footer-link:focus {
   background-color: #31d0aa;
 }
+.div-subscribe {
+  margin-left: 80px;
+}
+.subscribe-p {
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
+.label-form {
+  
+  
+}
+.input-subscribe {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color:#ffffff;
+  background-color: transparent;
+  font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 2; /* 200% */
+letter-spacing: 0.04em;
+padding-left: 16px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.input-subscribe::placeholder {
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 2; /* 200% */
+letter-spacing: 0.04em;
+color: #ffffff;
+padding: 8px, 16px;
+}
+.subscribe-button {
+  width: 164px;
+  height: 40px;
+  background-color: #4D5AE5;
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border: none;
+border-radius: 4px;
+}
+.icon-button {
+  fill: #FFFFFF;
+}
 
 /*modal-wondow*/
 .backdrop {
@@ -616,6 +675,11 @@ margin-bottom: 4px;
 }
 .privacy-policy {
   color: #4D5AE5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.04;
 }
 .modal-button {
   display: block;
