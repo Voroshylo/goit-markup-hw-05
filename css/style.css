@@ -505,17 +505,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .close-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover,
-.icon-close:focus {
-  fill: #ffffff;
-}
 .modal-title {
 margin-bottom: 16px;
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -541,6 +537,7 @@ margin-bottom: 4px;
 }
 .input {
   width: 100%;
+  height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -549,7 +546,7 @@ margin-bottom: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input:focus {
-  border-color: #4D5AE5;
+  fill: #4D5AE5;
 }
 .icon-label {
   position: absolute;
