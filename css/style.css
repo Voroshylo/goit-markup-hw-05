@@ -469,6 +469,7 @@ font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 color: #ffffff;
+margin-bottom: 16px;
 }
 .form-subscribe {
   display: flex;
@@ -503,7 +504,7 @@ color: #ffffff;
 padding: 8px, 16px;
 }
 .subscribe-button {
-  width: 164px;
+  min-width: 165px;
   height: 40px;
   background-color: #4D5AE5;
   font-size: 16px;
@@ -514,9 +515,14 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 border: none;
 border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
 }
 .icon-button {
   fill: #FFFFFF;
+  margin-left: 16px;
 }
 
 /*modal-wondow*/
